@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{parent()}}Accueil{% endblock %}
+
+{% block body %}
+<div class="content" style="margin-top: 10%;">
+    <div class="row">
+        <div class="container">
+            <ul class="list-group mt-5 connect-box" style="list-style-type: none;">
+                <li class="text-center text-primary display-2">Le Jeu de la dame</li>
+            </ul>
+        </div>
+        <div class="cardup card" style="margin-top: 5%">
+
+            <div class="container">
+                <span class="text-center">
+                    <h1>Prêt à jouer ?</h1>
+                    <h4>Commencez a joué à votre nouveau Jeu <a>créant un compte</a> puis Commencez a joué .</h4>
+                    <h4>Vous avez joué au jeu de dame? Vous pouvez <a>vous connecter</a> et commencer a notre nouveau jeu de dame.</h4>
+                </span>
+
+            </div>
+        </div>
+    </div>    
+</div>
+{% endblock %}

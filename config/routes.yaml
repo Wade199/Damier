@@ -1,0 +1,11 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+index:
+    path: /
+    controller: App\Controller\BaseController::index
+authentication_token:
+    path: /api/authentication_token
+    methods: ['POST']
